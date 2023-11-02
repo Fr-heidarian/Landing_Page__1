@@ -1,0 +1,35 @@
+:root {
+  --red: red;
+  --black: #231f20;
+}
+
+.container {
+  width: 70% !important;
+}
+/* Navbar Start */
+.navbar-brand i {
+  color: var(--red);
+  font-size: 2rem !important;
+}
+.gradient-text {
+  background-image: linear-gradient(to top, var(--red) 30%, var(--black) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  font-weight: bold;
+  color: transparent;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: var(--black);
+  font-weight: 500;
+}
+.navbar-nav .nav-item .nav-link.active {
+  color: var(--red);
+  border-bottom: 3px solid var(--red);
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+/* Navbar End */
