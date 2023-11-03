@@ -20,7 +20,6 @@
   font-weight: bold;
   color: transparent;
 }
-
 .navbar-nav .nav-item .nav-link {
   color: var(--black);
   font-weight: 500;
@@ -33,3 +32,27 @@
   justify-content: center;
 }
 /* Navbar End */
+/* Hero Section Start */
+#hero {
+  height: 100vh;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#hero form {
+  bottom: 6rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-left: 4px solid var(--red) !important;
+}
+#hero form input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(1);
+}
+
+#hero form button {
+  background-color: var(--red);
+  border: none;
+  padding: 0.75rem 3.25rem;
+  margin-top: 0.5rem;
+}
+/* Hero Section End */
