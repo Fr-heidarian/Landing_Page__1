@@ -2,7 +2,25 @@
   --red: red;
   --black: #231f20;
 }
-
+.title-effect::before {
+  content: "/";
+  position: absolute;
+  color: var(--red);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transform: rotateX(65deg);
+  top: -11px;
+}
+.title-effect::after {
+  content: "/";
+  position: absolute;
+  color: var(--red);
+  bottom: 2px;
+  right: -14px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transform: rotateX(65deg);
+}
 .container {
   width: 70% !important;
 }
@@ -48,7 +66,12 @@
   cursor: pointer;
   filter: invert(1);
 }
-
+#hero input::-webkit-datetime-edit-day-field:focus,
+#hero input::-webkit-datetime-edit-month-field:focus,
+#hero input::-webkit-datetime-edit-year-field:focus {
+  background-color: var(--red);
+  color: white;
+}
 #hero form button {
   background-color: var(--red);
   border: none;
@@ -56,3 +79,17 @@
   margin-top: 0.5rem;
 }
 /* Hero Section End */
+
+/* About-us Sectioc Start */
+#about-us {
+  width: 80%;
+  margin: auto;
+}
+.about-us-image {
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+}
+
+/* About-us Sectioc End */
