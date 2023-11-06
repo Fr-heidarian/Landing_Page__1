@@ -6,20 +6,20 @@
   content: "/";
   position: absolute;
   color: var(--red);
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: bolder;
-  transform: rotateX(65deg);
-  top: -11px;
+  transform: rotateX(63deg);
+  top: -13px;
 }
 .title-effect::after {
   content: "/";
   position: absolute;
   color: var(--red);
-  bottom: 2px;
-  right: -14px;
-  font-size: 1.2rem;
+  bottom: -3px;
+  right: -15px;
+  font-size: 2rem;
   font-weight: bolder;
-  transform: rotateX(65deg);
+  transform: rotateX(67deg);
 }
 .container {
   width: 70% !important;
@@ -86,10 +86,14 @@
   margin: auto;
 }
 .about-us-image {
-  background-image: url(../images/hero.jpg);
+  height: 70vh;
+  background-image: url(../images/about-us.jpg);
   background-position: center;
   background-size: cover;
   background-color: red;
 }
-
 /* About-us Sectioc End */
+
+/* Our Room Section Start */
+
+/* Our Room Section End */
