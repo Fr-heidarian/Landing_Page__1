@@ -113,3 +113,9 @@
   }
 }
 /* Blog Section End */
+/* Contact US Section Start */
+.form-shadow {
+  box-shadow: rgba(245, 99, 99, 0.2) 2px 1px 4px 1px;
+  margin-bottom: 1rem;
+}
+/* Contact US Section End */
