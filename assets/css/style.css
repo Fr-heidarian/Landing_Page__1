@@ -24,6 +24,10 @@
 .container {
   width: 70% !important;
 }
+.card {
+  border-radius: 0 !important;
+  border: none !important;
+}
 /* Navbar Start */
 .navbar-brand i {
   color: var(--red);
@@ -94,6 +98,18 @@
 }
 /* About-us Sectioc End */
 
-/* Our Room Section Start */
-
-/* Our Room Section End */
+/* Blog Section Start */
+#blog {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/blog.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  .card h6 {
+    color: var(--red);
+  }
+  .card p {
+    font-size: 1rem;
+  }
+}
+/* Blog Section End */
